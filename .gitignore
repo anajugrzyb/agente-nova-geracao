@@ -1,0 +1,42 @@
+# Ambiente e segredos
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Índice vetorial (regenerável via ingest.py)
+vectorstore/*.faiss
+vectorstore/*.pkl
+vectorstore/index.faiss
+vectorstore/index.pkl
+
+# Logs 
+logs/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Cache de modelos HuggingFace baixados localmente 
+.cache/
