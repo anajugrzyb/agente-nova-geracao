@@ -525,10 +525,6 @@ with st.sidebar:
         st.session_state.chat_history = []
         st.rerun()
 
-
-# ---------------------------------------------------------------------------
-# Cabeçalho principal
-# ---------------------------------------------------------------------------
 st.markdown(
     f"""
     <div class="app-header">
@@ -564,8 +560,7 @@ with chat_container:
             with st.expander("🔍 Ver trechos utilizados como fonte"):
                 for doc in rag_answer.sources:
                     src = format_source_name(doc.metadata.get("source", ""))
-                    page = doc.metadata.get("page", "?")
-                    st.markdown(f"**{src}** (página {page})")
+                    st.markdown(f"**{src}**")
                     st.caption(truncate_text(doc.page_content))
         st.markdown("&nbsp;", unsafe_allow_html=True)
 
