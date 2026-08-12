@@ -167,5 +167,5 @@ Acesse a versão publicada do projeto no Streamlit Community Cloud:
 Confira o vídeo abaixo mostrando o funcionamento completo do agente, desde o
 carregamento dos documentos até a resposta a perguntas dos alunos:
 
-[![Assista à demonstração](https://drive.google.com/file/d/1dHZLQuO7hUMPu-YVZSEAISGoU9q-Ckkn/view?usp=sharing)
+**[https://drive.google.com/file/d/1dHZLQuO7hUMPu-YVZSEAISGoU9q-Ckkn/view?usp=sharing](https://drive.google.com/file/d/1dHZLQuO7hUMPu-YVZSEAISGoU9q-Ckkn/view?usp=sharing)**
 
